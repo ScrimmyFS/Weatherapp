@@ -1,0 +1,16 @@
+header{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    text-decoration: solid;
+    background-color: rgb(52, 0, 156);
+
+}
+
+
+#Searchtext{
+font-size: 40px;
+
+}

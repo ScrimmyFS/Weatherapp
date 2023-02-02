@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+
+<header>
+
+<p>Weather Dashboard</p>
+
+</header>
+
+<body>
+    
+    
+
+        <div class="row">
+
+            <div class="col s3">
+                <p id="Searchtext">Search for a City:</p>
+                <div class="row">
+                    <form class="col s12" id="city-form">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input placeholder="city" id="city-input" type="text" class="formI">
+                                <label for="first_name"></label>
+                                <button id="submit">Search</button>
+                            </div>
+                        </div>
+                    </form>
+                    <ul id="city-list"></ul>
+                </div>
+            </div>
+
+            <div class="col s9">
+                <div id="Today"></div>
+                <div id="Nextfour"></div> 
+            </div>
+
+        </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
